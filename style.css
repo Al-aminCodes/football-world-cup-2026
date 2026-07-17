@@ -10,7 +10,7 @@
 body {
   max-width: 1200px;
   margin: auto;
-  background-color: antiquewhite;
+  background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
 }
 nav {
@@ -222,28 +222,54 @@ grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
 .table-section{
 
 background-color: #ffffff;
-padding: 12px;
+padding: 24px;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
 }
 table{
 width: 100%;
-border: 1px solid #D9D9D9 ;
-text-align: center;
- padding: 24px;
-  border-collapse: collapse;
-}
 
+text-align: center;
+
+border-collapse: collapse;
+}
 caption {
   text-align: left;
   margin: 15px 0;
   /* padding: 24px; */
 }
+caption h2{
+  font-weight: 700;
+  line-height: 1.7;
+  padding-bottom: 6px;
+}
+caption p{
+  color: #505F76;
+  font-size: 12px;
+  padding-bottom: 12px;
+}
 th , td{
  border: 1px solid #000000 ;
 padding: 16px 24px 16px 24px;
+font-size: 16px;
+font-weight: 600;
 }
 th{
 background-color:#A73131 ;
 color: #ffffff;
 font-size: 16px;
+line-height: 24px;
+
+ }
+ .r1{
+  color:#BA1A1A ;
+ }
+ .isopen{
+  color:#F60000  ;
+ }
+ .final{
+  color:#BDA004 ;
+  font-size: 12px;
+  font-weight: 600;
 
  }
